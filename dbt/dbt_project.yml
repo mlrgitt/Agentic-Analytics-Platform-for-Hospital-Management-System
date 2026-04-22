@@ -1,0 +1,11 @@
+name: hms_project
+version: 1.0
+
+models:
+  hms_project:
+    bronze:
+      materialized: view
+    silver:
+      materialized: table
+    gold:
+      materialized: table

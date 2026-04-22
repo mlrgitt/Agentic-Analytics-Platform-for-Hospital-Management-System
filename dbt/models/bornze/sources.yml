@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: HMS_DB
+    schema: BRONZE
+    tables:
+      - name: medical_reports
